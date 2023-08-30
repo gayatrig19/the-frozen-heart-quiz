@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;500&family=Merriweather:wght@300;400&display=swap');
 
+/* Global style */
 * {
     margin: 0;
     padding: 0;
@@ -11,14 +12,29 @@ html {
     height: 100%;
 }
 
-h1 {
-    font-family: 'Alegreya SC', sans-serif;
-    font-weight: 500;
-    font-size: 60px;
+body {
+    background-image: url('../images/banner-image.webp');
+    background-size: cover;
+    background-repeat: repeat-y;
+    font-family: Merriweather, sans-serif;
+    font-weight: 350;
+    /* color: bisque; */
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-p {
-    font-family: 'Merriweather', sans-serif;
-    font-weight: 300;
-    font-size: 30px;
+/* Heading */
+
+.heading {
+    font-family: Alegreya SC, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    /* color: #FFE990; */
+    color: bisque;
+    /* background-color: rgba(112, 151, 181, 0.9); */
+    background-color: navy;
+    border-bottom: 2px solid black;
+    box-shadow: 0 0 5px #1E1E1E;
 }
