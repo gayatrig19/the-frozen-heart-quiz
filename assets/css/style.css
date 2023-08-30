@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;500&family=Merriweather:wght@300;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,4 +9,16 @@
 
 html {
     height: 100%;
+}
+
+h1 {
+    font-family: 'Alegreya SC', sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+p {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
 }
