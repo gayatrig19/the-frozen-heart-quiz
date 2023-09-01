@@ -51,9 +51,36 @@
     <!--Header and logo-->
     <header>
       <h1 class="heading">
-        <i class="fas fa-snowflake"></i> The Frozen Heart Quiz
+        <a href="index.html" aria-label="Go to the quiz home page"
+          ><img class="logo" src="assets/images/logo.png" alt="logo" />The
+          Frozen Heart Quiz</a
+        >
       </h1>
     </header>
+
+    <!-- Container for quiz game-->
+    <div class="main-container">
+      <!--Quiz game container-->
+      <div id="start-container1" class="start-page">
+        <h2>
+          Step into the frosty realm of magic and adventure with our Frozen
+          Quiz.
+        </h2>
+        <p>May the snowflakes guide you to victory!!</p>
+        <br />
+
+        <!--Username Input section-->
+        <label for="user-name"
+          ><i class="fas fa-user"></i> Enter Username</label
+        >
+        <input type="text" name="user-name" id="user-name" required />
+        <div id="message"></div>
+        <!--Quiz game start button-->
+        <div class="button-position">
+          <button id="start-button" class="buttons">Let's get Started!!</button>
+        </div>
+      </div>
+    </div>
 
     <!--Footer-->
     <footer>

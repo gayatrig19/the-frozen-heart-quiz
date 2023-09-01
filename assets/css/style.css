@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;500&family=Merriweather:wght@300;400&display=swap');
 
-/* Global style */
 * {
     margin: 0;
     padding: 0;
@@ -9,68 +8,144 @@
 }
 
 html {
-    height: 100%;
+    /* height: 100%; */
+    background-image: linear-gradient(rgba(255, 0, 0, 0.25),
+            rgba(255, 0, 0, 0.25)), url('../images/logo3.webp');
+    background-size: cover;
+    background-repeat: repeat;
 }
 
 body {
-    background-image: url('../images/banner-image.webp');
-    background-size: cover;
-    background-repeat: repeat-y;
-    font-family: Merriweather, sans-serif;
-    font-weight: 350;
-    /* color: bisque; */
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
     min-height: 100%;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 /* Heading */
 
 .heading {
-    font-family: Alegreya SC, sans-serif;
-    font-size: 40px;
+    font-family: 'Alegreya SC', sans-serif;
+    font-size: 50px;
     font-weight: 500;
     text-align: center;
-    /* color: #FFE990; */
     color: bisque;
-    /* background-color: rgba(112, 151, 181, 0.9); */
-    background-color: navy;
-    border-bottom: 2px solid black;
-    box-shadow: 0 0 5px #1E1E1E;
+    background-color: #150335;
+    border-bottom: 2px solid wheat;
+    box-shadow: 0 0 5px white;
 }
+
+.logo {
+    height: 40px;
+    padding-right: 5px;
+}
+
+.heading a {
+    text-decoration: none;
+    color: bisque;
+}
+
+.heading a:hover {
+    text-shadow: 3px 3px red;
+}
+
+/* Welcome container */
+/* Container for quiz game */
+
+.main-container {
+    color: #ffff;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+h2 {
+    margin: 30px 0;
+    font-family: 'Merriweather', sans-serif;
+}
+
+
+.start-page {
+    background-color: rgba(51, 36, 21, 0.8);
+    /* background-color: rgba(57, 110, 141, 0.8); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+p {
+    margin: 10px auto;
+    font-family: 'Merriweather', sans-serif;
+}
+
+#user-name {
+    font-size: 24px;
+    border: 2px solid red;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    width: 40%;
+    height: 30px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
 
 
 
 /* Footer */
 footer {
-    background-color: navy;
+    background-color: #150335;
+    margin-top: auto;
     padding-bottom: 14px;
-    font-family: Alegreya SC, sans-serif;
+    font-family: 'Alegreya SC', sans-serif;
+    border-top: 2px solid wheat;
     color: bisque;
     height: auto;
 }
 
-.social-networks {
+/* .social-networks {
     text-align: center;
     display: flex;
     padding: 0;
     margin: 0 auto;
     max-width: 300px;
-}
+} */
 
-.social-networks>li {
+/* .social-networks>li {
+    display: inline;
     padding: 0 28px;
-    width: 25%;
+    width: 20%;
     list-style: none;
-}
+} */
 
-.social-networks i {
+/* .social-networks i {
+    padding: 2%;
+    margin: 1%;
     color: bisque;
     font-size: 30px;
-}
+} */
 
 .copyright-wrapper {
     text-align: center;
     display: inline;
-    padding: 0 28px;
+    /* padding: 0 28px; */
 }
