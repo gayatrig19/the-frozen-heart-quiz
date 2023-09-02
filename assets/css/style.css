@@ -10,7 +10,7 @@
 html {
     /* height: 100%; */
     background-image: linear-gradient(rgba(255, 0, 0, 0.25),
-            rgba(255, 0, 0, 0.25)), url('../images/logo3.webp');
+            rgba(255, 0, 0, 0.25)), url('../images/banner-image.webp');
     background-size: cover;
     background-repeat: repeat;
 }
@@ -65,40 +65,69 @@ body {
     padding: 40px;
 }
 
-h2 {
-    margin: 30px 0;
-    font-family: 'Merriweather', sans-serif;
-}
-
-
 .start-page {
-    background-color: rgba(51, 36, 21, 0.8);
-    /* background-color: rgba(57, 110, 141, 0.8); */
+    background-color: rgba(51, 36, 21, 0.9);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 28px;
+    padding: 30px;
     width: 80%;
     height: 80%;
     justify-content: center;
     border-radius: 20px;
-    border: 2px solid black;
+    border: 2px solid wheat;
+    box-shadow: 0 0 5px wheat;
 }
 
-p {
-    margin: 10px auto;
+.welcome {
+    margin: 30px 0;
     font-family: 'Merriweather', sans-serif;
 }
 
 #user-name {
-    font-size: 24px;
-    border: 2px solid red;
+    border: solid #5adbb5;
     border-radius: 4px;
     display: block;
     text-align: center;
-    width: 40%;
-    height: 30px;
-    margin: 10px;
+    width: 50%;
+    height: 25px;
+    margin: 15px;
+}
+
+#label {
+    color: #5adbb5;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Style for buttons */
+
+.button-position {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.buttons {
+    height: auto;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 10px;
+    color: black;
+    background-color: #5adbb5;
+    font-family: 'Alegreya SC', sans-serif;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 3px white;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px white;
+    /* transform: scale(1); */
 }
 
 
