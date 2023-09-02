@@ -16,3 +16,22 @@ let userNameInput = document.getElementById('user-name');
 let user = userNameInput;
 let validMessageEmpty = "Enter a valid username without spaces and numbers";
 let validCharacterMessage = "Username should contain more than 3 characters";
+
+//Username Validation
+function checkUserName() {
+
+    var messageLetters = /^[A-Za-z]+$/;
+
+    if (!user.value.match(messageLetters)) {
+        message.innerHTML = validMessageEmpty;
+    } else if (user.value.length <= Number(3)) {
+        message.innerHTML = validCharacterMessage;
+    } else if (user.value.length >= Number(3)) {
+        startQuiz();
+    }
+}
+
+//Event Listener for starting quiz
+startButton.onclick = () => {
+    checkUserName();
+};
