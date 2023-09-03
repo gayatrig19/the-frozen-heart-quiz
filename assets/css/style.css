@@ -84,20 +84,24 @@ body {
     box-shadow: 0 0 5px wheat;
 }
 
-.start-msg {
+#start-msg p {
     margin: 10px 0;
     width: 100%;
+}
 
+#start-msg em {
+    color: bisque;
+    font-weight: bold;
 }
 
 #user-name {
     font-family: 'Merriweather', sans-serif;
-    border: solid #5adbb5;
+    border: 3px solid #5adbb5;
     border-radius: 4px;
     display: block;
     text-align: center;
-    width: 50%;
-    height: 30px;
+    width: 60%;
+    height: 40px;
     margin: 15px;
 }
 
@@ -108,7 +112,7 @@ body {
 #label {
     color: #5adbb5;
     font-family: 'Merriweather', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 

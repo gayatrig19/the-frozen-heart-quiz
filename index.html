@@ -66,18 +66,25 @@
       <!--Quiz game container-->
       <div id="start-container" class="start-page">
         <h2 class="welcome">May the snowflakes guide you to victory!!</h2>
-
-        <p class="start-msg">
-          Step into the frosty realm of magic and adventure with our Frozen
-          Quiz.
-        </p>
+        <div id="start-msg">
+          <p>
+            Step into the frosty realm of magic and adventure with our
+            <em>Frozen</em> Quiz.
+          </p>
+        </div>
         <br />
 
         <!--Username Input section-->
         <label id="label" for="user-name"
           ><i class="fas fa-user"></i> Enter Username</label
         >
-        <input type="text" name="user-name" id="user-name" required />
+        <input
+          type="text"
+          name="user-name"
+          id="user-name"
+          placeholder="Type your name here!"
+          required
+        />
         <div id="message"></div>
         <!--Quiz game start button-->
         <div class="button-position">
