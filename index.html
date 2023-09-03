@@ -93,9 +93,9 @@
       </div>
 
       <!--Quiz container for questions and answers-->
-      <div id="quiz-container" class="display-div">
+      <div id="quiz-container" class="display">
         <!-- Display Timer and Question Numbers-->
-        <div id="progress-count">
+        <div id="progress-container">
           <div>
             <div id="timer"></div>
             <div id="timer-outer">
@@ -104,8 +104,33 @@
           </div>
           <div class="question-number">
             <div>Questions</div>
-            <div><span id="question-count"></span><span>/15</span></div>
+            <div><span id="question-count"></span><span>x/15</span></div>
           </div>
+        </div>
+
+        <!--Container holding the questions-->
+        <div class="quizquestion-container">
+          <div id="questions-area">Question</div>
+        </div>
+        <!--Container holding answers-->
+        <div id="answers-container">
+          <button class="answer-button buttons" id="answer-btn-a">
+            Option A
+          </button>
+          <button class="answer-button buttons" id="answer-btn-b">
+            Option B
+          </button>
+          <button class="answer-button buttons" id="answer-btn-c">
+            Option C
+          </button>
+          <button class="answer-button buttons" id="answer-btn-d">
+            Option D
+          </button>
+        </div>
+
+        <!--Container for buttons to navigate through pages and next question-->
+        <div id="navigation-container" class="button-position">
+          <button id="next-area" class="buttons">Next</button>
         </div>
       </div>
     </div>
