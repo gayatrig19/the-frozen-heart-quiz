@@ -71,7 +71,7 @@ body {
 }
 
 .start-page {
-    background-color: rgba(51, 36, 21, 0.9);
+    background-color: rgba(51, 36, 21, 0.7);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,13 +85,17 @@ body {
 }
 
 #start-msg p {
+    font-size: 18px;
     margin: 10px 0;
     width: 100%;
 }
 
 #start-msg em {
-    color: bisque;
     font-weight: bold;
+}
+
+#start-msg em:hover {
+    color: #1cdda3;
 }
 
 #user-name {
@@ -142,7 +146,7 @@ body {
 .buttons:hover {
     cursor: pointer;
     box-shadow: 3px 3px white;
-    /* transform: scale(1); */
+    transform: scale(1.1);
 }
 
 
