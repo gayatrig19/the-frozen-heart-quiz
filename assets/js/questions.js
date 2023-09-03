@@ -3,7 +3,7 @@
 // Questions for the quiz are stored below.
 
 const questions = [{
-    question: "Which fairy tale by Hans Christian Andersen inspired the 2013 animated film 'Frozen'?",
+    question: "What fairy tale by Hans Christian Andersen inspired the 2013 animated film 'Frozen'?",
     answers: [
         { optionA: 'The Ice Queen' },
         { optionB: 'The Cold Queen' },
@@ -13,7 +13,7 @@ const questions = [{
     correctAnswer: 'The Snow Queen'
 },
 {
-    question: "Which character is the secondary antagonist of the movie?",
+    question: "Which character is the secondary antagonist of the film 'Frozen'?",
     answers: [
         { optionA: 'Prince Of Weselton' },
         { optionB: 'King Of Weselton' },
@@ -23,7 +23,7 @@ const questions = [{
     correctAnswer: 'Duke Of Weselton'
 },
 {
-    question: "Which song ends with the line, 'The cold never bothered me anyway'?",
+    question: "Which song in the film ends with the line, 'The cold never bothered me anyway'?",
     answers: [
         { optionA: 'Frozen Heart' },
         { optionB: 'Love Is An Open Door' },
@@ -43,7 +43,7 @@ const questions = [{
     correctAnswer: 'Evan Rachel Wood'
 },
 {
-    question: "Which character is the main antagonist of the movie?",
+    question: "Which character is the main antagonist of the film 'Frozen'?",
     answers: [
         { optionA: 'Elsa' },
         { optionB: 'Oaken' },
