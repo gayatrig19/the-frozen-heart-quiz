@@ -58,7 +58,99 @@ body {
 }
 
 /* Welcome container */
-/* Container for quiz game */
+/* Main Container for quiz game */
+.quiz-container {
+    margin: auto;
+    max-width: 500px;
+    width: 80%;
+    background-color: rgba(51, 36, 21, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid wheat;
+    box-shadow: 0 0 10px 2px wheat;
+}
+
+h2 {
+    /* width: 100%; */
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', sans-serif;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    /* width: 100%; */
+    margin: 10px 0;
+    text-align: center;
+}
+
+p em {
+    font-weight: bold;
+}
+
+p em:hover {
+    font-size: 18px;
+    color: #1cdda3;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#question-text {
+    margin-bottom: 20px;
+    font-family: 'Merriweather', sans-serif;
+    color: white;
+}
+
+#answer-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    font-family: 'Merriweather', sans-serif;
+}
+
+button {
+    height: 45px;
+    font-size: 16px;
+    background-color: #5adbb5;
+    font-weight: bold;
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 3px white;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px white;
+    transform: scale(1.1);
+}
+
+#controls-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#timer-container {
+    display: flex;
+    align-items: center;
+}
+
+#timer-text {
+    font-size: 16px;
+    color: white;
+    font-family: 'Merriweather', sans-serif;
+}
+
+#timer {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
 
 
 /* Footer */
@@ -85,21 +177,25 @@ footer {
 .social-networks>li {
     display: inline;
     margin-top: 20px;
-    padding: 0 28px;
+    /* padding: 0 28px; */
     width: 20%;
     list-style: none;
 }
 
 .social-networks i {
-    padding: 2%;
-    margin: 1%;
+    /* padding: 2%;
+    margin: 1%; */
     color: bisque;
     font-size: 30px;
 }
 
 .copyright-wrapper {
-    font-size: 18px;
+    font-family: 'Merriweather', sans-serif;
     text-align: center;
     display: inline;
-    padding: 0 20px;
+    /* padding: 0 20px; */
+}
+
+.copyright-wrapper p {
+    color: bisque;
 }
