@@ -62,78 +62,6 @@
     </header>
 
     <!-- Container for quiz game-->
-    <div class="main-container">
-      <!--Quiz game container-->
-      <div id="start-container" class="start-page">
-        <h2 class="welcome">May the snowflakes guide you to victory!!</h2>
-        <div id="start-msg">
-          <p>
-            Step into the frosty realm of magic and adventure with our
-            <em>Frozen</em> Quiz.
-          </p>
-        </div>
-        <br />
-
-        <!--Username Input section-->
-        <label id="label" for="user-name"
-          ><i class="fas fa-user"></i> Enter Username</label
-        >
-        <input
-          type="text"
-          name="user-name"
-          id="user-name"
-          placeholder="Type your name here!"
-          required
-        />
-        <div id="message"></div>
-        <!--Quiz game start button-->
-        <div class="button-position">
-          <button id="start-button" class="buttons">Let's get Started!!</button>
-        </div>
-      </div>
-
-      <!--Quiz container for questions and answers-->
-      <div id="quiz-container" class="display">
-        <!-- Display Timer and Question Numbers-->
-        <div id="progress-container">
-          <div>
-            <div id="timer"></div>
-            <div id="timer-outer">
-              <div id="progressbar"></div>
-            </div>
-          </div>
-          <div class="question-number">
-            <div>Questions</div>
-            <div><span id="question-count"></span><span>x/15</span></div>
-          </div>
-        </div>
-
-        <!--Container holding the questions-->
-        <div class="quizquestion-container">
-          <div id="questions-area">Question</div>
-        </div>
-        <!--Container holding answers-->
-        <div id="answers-container">
-          <button class="answer-button buttons" id="answer-btn-a">
-            Option A
-          </button>
-          <button class="answer-button buttons" id="answer-btn-b">
-            Option B
-          </button>
-          <button class="answer-button buttons" id="answer-btn-c">
-            Option C
-          </button>
-          <button class="answer-button buttons" id="answer-btn-d">
-            Option D
-          </button>
-        </div>
-
-        <!--Container for buttons to navigate through pages and next question-->
-        <div id="navigation-container" class="button-position">
-          <button id="next-area" class="buttons">Next</button>
-        </div>
-      </div>
-    </div>
 
     <!--Footer-->
     <footer>
@@ -168,5 +96,8 @@
     <!--JavaScript file links-->
     <!--Main JS file-->
     <script src="assets/js/script.js"></script>
+    <!--Questions JS file-->
+    <script src="assets/js/questions.js"></script>
+    <noscript> Sorry your browser does not support Javascript!</noscript>
   </body>
 </html>

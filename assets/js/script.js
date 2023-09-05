@@ -4,6 +4,8 @@
 let startButton = document.getElementById('start-button');
 let startPage = document.getElementById('start-container');
 let userNameInput = document.getElementById('user-name');
+let message = document.getElementById('message');
+let quizArea = document.getElementById('quiz-container');
 
 
 //Validating and Getting Username
@@ -43,3 +45,8 @@ function validateUserName() {
 startButton.onclick = () => {
     validateUserName();
 };
+
+function startQuiz() {
+    startPage.classList.add('inactive');
+    quizArea.classList.remove('inactive');
+}
