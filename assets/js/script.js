@@ -88,12 +88,19 @@ let score = 0;
 let timeLeft = 30;
 let timerInterval;
 
+// Initially hide the timer container
+document.getElementById("timer-container").style.display = "none";
+
 /**
  * On clicking the Lets get Started button, function will be called to start the quiz
  */
 function startQuiz() {
     //Hide the start button and other content on the main quiz page and display first question
+    // Display the timer when it starts
+    document.getElementById("timer-container").style.display = "block";
     document.getElementById("start-button").style.display = "none";
+    document.getElementById("quiz-heading").style.display = "none";
+    document.getElementById("quiz-content").style.display = "none";
     displayQuestion();
     startTimer();
 }

@@ -70,27 +70,27 @@ body {
     box-shadow: 0 0 10px 2px wheat;
 }
 
-/* h2 {
+h2 {
     text-align: center;
     color: white;
     font-family: 'Merriweather', sans-serif;
-} */
+}
 
-/* p {
+p {
     color: white;
     font-size: 16px;
     margin: 10px 0;
     text-align: center;
-} */
+}
 
-/* p em {
+p em {
     font-weight: bold;
-} */
+}
 
-/* p em:hover {
+p em:hover {
     font-size: 18px;
     color: #1cdda3;
-} */
+}
 
 #question-container {
     margin-bottom: 20px;
