@@ -131,6 +131,26 @@ function displayQuestion() {
     });
 }
 
+//Function for checking the selected answer
+function checkAnswer(selectedOption) {
+    const currentQuestion = quizQuestions[currentQuestionIndex];
+
+    //Check if the selected answer is correct 
+    if (selectedOption === currentQuestion.correctAnswer) {
+        score++;
+    }
+
+    //Move to the next question or end the quiz if all questions are answered
+    currentQuestionIndex++;
+
+    if (currentQuestionIndex < quizQuestions.length) {
+        displayQuestion();
+    } else {
+        endQuiz();
+    }
+}
+
+
 
 //Add event listener to start the quiz when the start button is clicked
 document.getElementById("start-button").addEventListener("click", startQuiz);
