@@ -85,7 +85,7 @@ const quizQuestions = [
 // Global variables to track the quiz state
 let currentQuestionIndex = 0;
 let score = 0;
-let timeLeft = 30;
+let timeLeft = 120;
 let timerInterval;
 
 // Initially hide the timer container
@@ -166,10 +166,21 @@ function startTimer() {
 }
 
 // Function to end the quiz game
+function endQuiz() {
+    // Stop the timer
+    clearInterval(timerInterval);
 
+    // Calculate the score percentage
+    const scorePercentage = (score / quizQuestions.length) * 100;
 
-
-
+    // Display the final score
+    const questionContainer = document.getElementById("question-container");
+    questionContainer.innerHTML = `
+    <h2>Quiz Completed</h2>
+    <p>Your Score: ${score} out of ${quizQuestions.length}</p>
+    <p>Score Percentage: ${scorePercentage}%</p>
+    `;
+}
 
 //Add event listener to start the quiz when the start button is clicked
 document.getElementById("start-button").addEventListener("click", startQuiz);
