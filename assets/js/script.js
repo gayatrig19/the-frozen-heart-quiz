@@ -150,6 +150,25 @@ function checkAnswer(selectedOption) {
     }
 }
 
+//Function to start the timer
+function startTimer() {
+    timerInterval = setInterval(function () {
+        timeLeft--;
+
+        //Update the timer text 
+        document.getElementById("timer").textContent = timeLeft;
+
+        //End the quiz if the time runs out
+        if (timeLeft <= 0) {
+            endQuiz();
+        }
+    }, 1000);
+}
+
+// Function to end the quiz game
+
+
+
 
 
 //Add event listener to start the quiz when the start button is clicked
