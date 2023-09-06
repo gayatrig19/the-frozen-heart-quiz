@@ -171,7 +171,7 @@ function endQuiz() {
     clearInterval(timerInterval);
 
     // Calculate the score percentage
-    const scorePercentage = (score / quizQuestions.length) * 100;
+    const scorePercentage = Math.round((score / quizQuestions.length) * 100);
 
     // Display the final score
     const questionContainer = document.getElementById("question-container");
