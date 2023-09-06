@@ -61,7 +61,9 @@ body {
 /* Main Container for quiz game */
 .quiz-container {
     margin: auto;
-    max-width: 500px;
+    /* max-width: 500px;
+    width: 80%; */
+    max-width: 700px;
     width: 80%;
     background-color: rgba(51, 36, 21, 0.7);
     padding: 20px;
@@ -76,20 +78,21 @@ h2 {
     font-family: 'Merriweather', sans-serif;
 }
 
-p {
-    color: white;
-    font-size: 16px;
-    margin: 10px 0;
-    text-align: center;
-}
-
-p em {
+h2 em {
     font-weight: bold;
 }
 
-p em:hover {
+h2 em:hover {
+    text-shadow: 3px 3px red;
+    color: bisque;
+}
+
+p {
+    color: white;
+    /* font-size: 16px; */
     font-size: 18px;
-    color: #1cdda3;
+    margin: 10px 0;
+    text-align: center;
 }
 
 #question-container {
@@ -106,7 +109,8 @@ p em:hover {
 #answer-buttons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    /* grid-gap: 20px; */
+    grid-gap: 30px;
     font-family: 'Merriweather', sans-serif;
 }
 
@@ -124,7 +128,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    box-shadow: 3px 3px white;
+    box-shadow: 2px 2px white;
     transform: scale(1.1);
 }
 
@@ -141,7 +145,7 @@ button:hover {
 }
 
 #timer-text {
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     font-family: 'Merriweather', sans-serif;
 }
@@ -149,6 +153,14 @@ button:hover {
 #timer {
     font-weight: bold;
     margin-left: 5px;
+}
+
+.correct-answer {
+    color: green
+}
+
+.wrong-answer {
+    color: red;
 }
 
 

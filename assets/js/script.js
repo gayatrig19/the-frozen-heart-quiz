@@ -131,22 +131,46 @@ function displayQuestion() {
     });
 }
 
-//Function for checking the selected answer
+//Function for checking the selected answer 
 function checkAnswer(selectedOption) {
     const currentQuestion = quizQuestions[currentQuestionIndex];
+    const answerButtons = document.getElementById("answer-buttons");
+    const buttons = answerButtons.querySelectorAll("button");
+
+    // Function to check correct and wrong answers and display both with respective background colors
+    // green for correct and red for incorrect answer
+    //Both buttons will be highlighted at the same time
+    buttons.forEach(button => {
+        button.disabled = true;
+        // If answer is correct the button background color will change to green
+        if (button.innerText === currentQuestion.correctAnswer) {
+            button.style.backgroundColor = "green";
+            // For incorrect answer the button will display red
+        } else if (button.innerText === selectedOption) {
+            button.style.backgroundColor = "red";
+        }
+    });
 
     //Check if the selected answer is correct 
     if (selectedOption === currentQuestion.correctAnswer) {
         score++;
     }
 
-    //Move to the next question or end the quiz if all questions are answered
+    //Move to the next question or end the quiz if all quiz questions are answered
     currentQuestionIndex++;
 
     if (currentQuestionIndex < quizQuestions.length) {
-        displayQuestion();
+        //Delay for a moment and then move to the next question
+        setTimeout(() => {
+            displayQuestion();
+        }, 1000);
+
     } else {
-        endQuiz();
+        //Display the final score and message after the dealy
+        setTimeout(() => {
+            endQuiz();
+        }, 1000);
+
     }
 }
 
