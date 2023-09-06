@@ -85,6 +85,8 @@ const quizQuestions = [
 // Global variables to track the quiz state
 let currentQuestionIndex = 0;
 let score = 0;
+let timerMinutes = 0; //Initial minutes for the timer
+let timerSeconds = 0; //Initial seconds for the timer
 let timeLeft = 120;
 let timerInterval;
 
@@ -166,10 +168,14 @@ function checkAnswer(selectedOption) {
         }, 1000);
 
     } else {
-        //Display the final score and message after the dealy
-        setTimeout(() => {
-            endQuiz();
-        }, 1000);
+        //End the quiz and display the final score and time taken
+        endQuiz();
+
+
+
+        //Display the final score and message after the deal
+        // setTimeout(() => {
+        // }, 1000);
 
     }
 }
@@ -177,22 +183,43 @@ function checkAnswer(selectedOption) {
 //Function to start the timer
 function startTimer() {
     timerInterval = setInterval(function () {
-        timeLeft--;
+        if (timerSeconds === 59) {
+            //If seconds reach 59, increment minutes and reset seconds to 0
+            timerMinutes++;
+            timerSeconds = 0;
+        } else {
+            //Increment seconds
+            timerSeconds++;
+        }
+
 
         //Update the timer text 
-        document.getElementById("timer").textContent = timeLeft;
 
-        //End the quiz if the time runs out
-        if (timeLeft <= 0) {
-            endQuiz();
-        }
+        // document.getElementById("timer").textContent = timeLeft;
+
+        const formattedMinutes = timerMinutes < 10 ? `0${timerMinutes}` : timerMinutes;
+        const formattedSeconds = timerSeconds < 10 ? `0${timerSeconds}` : timerSeconds;
+        document.getElementById("timer").textContent = `${formattedMinutes}:${formattedSeconds}`;
+
     }, 1000);
 }
+
+
+
+//End the quiz if the time runs out
+//         if (timeLeft <= 0) {
+//             endQuiz();
+//         }
+//     }, 1000);
+// }
+
+
 
 // Function to end the quiz game
 function endQuiz() {
     // Stop the timer
     clearInterval(timerInterval);
+    document.getElementById("timer-container").style.display = "none";
 
     // Calculate the score percentage
     const scorePercentage = Math.round((score / quizQuestions.length) * 100);
@@ -203,6 +230,7 @@ function endQuiz() {
     <h2>Quiz Completed</h2>
     <p>Your Score: ${score} out of ${quizQuestions.length}</p>
     <p>Score Percentage: ${scorePercentage}%</p>
+    <p>Time Taken: ${timerMinutes} mins and ${timerSeconds}secs</p>
     `;
 }
 

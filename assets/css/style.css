@@ -144,16 +144,21 @@ button:hover {
     align-items: center;
 }
 
-#timer-text {
-    font-size: 18px;
+#timer {
+    font-weight: bold;
+    font-size: 22px;
     color: white;
     font-family: 'Merriweather', sans-serif;
 }
 
-#timer {
+/* #minutes {
     font-weight: bold;
     margin-left: 5px;
 }
+
+#seconds {
+    font-weight: bold;
+} */
 
 .correct-answer {
     color: green
