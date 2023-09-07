@@ -73,6 +73,7 @@ body {
 }
 
 h2 {
+    padding-top: 10px;
     text-align: center;
     color: white;
     font-family: 'Merriweather', sans-serif;
@@ -99,6 +100,17 @@ p {
     margin-bottom: 20px;
 }
 
+#question-number {
+    text-align: center;
+    margin-bottom: 15px;
+    /* color: #150335; */
+    color: whitesmoke;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
 #question-text {
     text-align: center;
     margin-bottom: 30px;
@@ -116,6 +128,7 @@ p {
 
 button {
     height: 40px;
+    padding: 10px;
     font-size: 16px;
     background-color: #5adbb5;
     font-weight: bold;
@@ -146,7 +159,7 @@ button:hover {
 
 #timer {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     color: white;
     font-family: 'Merriweather', sans-serif;
 }

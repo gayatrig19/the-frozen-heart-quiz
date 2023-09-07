@@ -87,11 +87,12 @@ let currentQuestionIndex = 0;
 let score = 0;
 let timerMinutes = 0; //Initial minutes for the timer
 let timerSeconds = 0; //Initial seconds for the timer
-let timeLeft = 120;
 let timerInterval;
 
 // Initially hide the timer container
 document.getElementById("timer-container").style.display = "none";
+document.getElementById("question-number").style.display = "none";
+
 
 /**
  * On clicking the Lets get Started button, function will be called to start the quiz
@@ -100,6 +101,7 @@ function startQuiz() {
     //Hide the start button and other content on the main quiz page and display first question
     // Display the timer when it starts
     document.getElementById("timer-container").style.display = "block";
+    document.getElementById("question-number").style.display = "block";
     document.getElementById("start-button").style.display = "none";
     document.getElementById("quiz-heading").style.display = "none";
     document.getElementById("quiz-content").style.display = "none";
@@ -116,6 +118,10 @@ function displayQuestion() {
     questionText.innerHTML = "";
     answerButtons.innerHTML = "";
 
+
+    // Increment the question number
+    incrementQuestionNumber();
+
     // Display current question
     questionText.innerHTML = currentQuestion.question;
 
@@ -131,6 +137,15 @@ function displayQuestion() {
             checkAnswer(option);
         });
     });
+}
+
+// Function to increment the question number
+function incrementQuestionNumber() {
+    const currentQuestionNumber = document.getElementById("current-question");
+    currentQuestionNumber.textContent = currentQuestionIndex + 1; // Add 1 to display the current question index
+
+    const totalQuestions = document.getElementById("total-questions");
+    totalQuestions.textContent = quizQuestions.length; // Set the total number of questions
 }
 
 //Function for checking the selected answer 
