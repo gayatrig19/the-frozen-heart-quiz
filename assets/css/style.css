@@ -7,8 +7,8 @@
     box-sizing: border-box;
 }
 
+/* Background banner image */
 html {
-    /* height: 100%; */
     background-image: linear-gradient(rgba(255, 0, 0, 0.25),
             rgba(255, 0, 0, 0.25)), url('../images/banner-image.webp');
     background-size: cover;
@@ -22,14 +22,11 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* min-height: 100%; */
     min-height: 100vh;
     overflow-x: hidden;
-
 }
 
-/* Heading */
-
+/* Heading and logo */
 .heading {
     margin: auto;
     width: 100vw;
@@ -61,8 +58,6 @@ body {
 /* Main Container for quiz game */
 .quiz-container {
     margin: auto;
-    /* max-width: 500px;
-    width: 80%; */
     max-width: 700px;
     width: 80%;
     background-color: rgba(51, 36, 21, 0.7);
@@ -72,6 +67,7 @@ body {
     box-shadow: 0 0 10px 2px wheat;
 }
 
+/* Main page container content */
 h2 {
     padding-top: 10px;
     text-align: center;
@@ -90,12 +86,12 @@ h2 em:hover {
 
 p {
     color: white;
-    /* font-size: 16px; */
     font-size: 18px;
     margin: 10px 0;
     text-align: center;
 }
 
+/* Styles for question container */
 #question-container {
     margin-bottom: 20px;
 }
@@ -103,12 +99,10 @@ p {
 #question-number {
     text-align: center;
     margin-bottom: 15px;
-    /* color: #150335; */
     color: whitesmoke;
     font-family: 'Merriweather', sans-serif;
     font-size: 20px;
     font-weight: bold;
-
 }
 
 #question-text {
@@ -118,10 +112,10 @@ p {
     color: white;
 }
 
+/* Styles for answer buttons */
 #answer-buttons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-gap: 20px; */
     grid-gap: 30px;
     font-family: 'Merriweather', sans-serif;
 }
@@ -129,10 +123,9 @@ p {
 button {
     height: 40px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #5adbb5;
     font-weight: bold;
-    /* color: black; */
     color: #150335;
     border: 2px solid white;
     border-radius: 5px;
@@ -145,6 +138,7 @@ button:hover {
     transform: scale(1.1);
 }
 
+/* Styles for start button, retry quiz button and Timer */
 #controls-container {
     display: flex;
     justify-content: center;
@@ -164,15 +158,7 @@ button:hover {
     font-family: 'Merriweather', sans-serif;
 }
 
-/* #minutes {
-    font-weight: bold;
-    margin-left: 5px;
-}
-
-#seconds {
-    font-weight: bold;
-} */
-
+/* Styles for displaying right and wrong answers */
 .correct-answer {
     color: green
 }
@@ -181,9 +167,7 @@ button:hover {
     color: red;
 }
 
-
-
-/* Footer */
+/* Footer styles */
 footer {
     background-color: #150335;
     margin-top: auto;
@@ -207,14 +191,11 @@ footer {
 .social-networks>li {
     display: inline;
     margin-top: 20px;
-    /* padding: 0 28px; */
     width: 20%;
     list-style: none;
 }
 
 .social-networks i {
-    /* padding: 2%;
-    margin: 1%; */
     color: bisque;
     font-size: 30px;
 }
@@ -223,9 +204,13 @@ footer {
     font-family: 'Merriweather', sans-serif;
     text-align: center;
     display: inline;
-    /* padding: 0 20px; */
 }
 
 .copyright-wrapper p {
     color: bisque;
+}
+
+p .copyright {
+    margin-right: 5px;
+    vertical-align: middle;
 }

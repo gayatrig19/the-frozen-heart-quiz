@@ -74,20 +74,30 @@
 
       <!--Quiz questions container -->
       <div id="question-container">
+        <!--Quiz question number section-->
         <div id="question-number">
           Question: <span id="current-question">1</span> /
           <span id="total-questions">15</span>
         </div>
+        <!--Questions and answer options section-->
         <h3 id="question-text"></h3>
         <div id="answer-buttons"></div>
       </div>
 
-      <!--Container for starting quiz and timer-->
+      <!--Container for starting quiz and restarting quiz-->
       <div id="controls-container">
-        <button id="start-button">Start Quiz</button>
-        <button id="retry-button" onclick="retryQuiz()">Restart Quiz</button>
+        <button aria-label="Start the quiz" id="start-button">
+          Start Quiz
+        </button>
+        <button
+          aria-label="Start the quiz again"
+          id="retry-button"
+          onclick="retryQuiz()"
+        >
+          Restart Quiz
+        </button>
+        <!--Container to display timer-->
         <div id="timer-container">
-          <!-- <span id="timer-text">Timer<span id="timer">0</span></span> -->
           <p id="timer">
             Timer: <span id="minutes">0</span>:<span id="seconds">0</span>
           </p>
@@ -121,7 +131,7 @@
       </ul>
 
       <div class="copyright-wrapper">
-        <p>&copy 2023 The Frozen Heart Quiz</p>
+        <p><span class="copyright">&copy;</span>2023 The Frozen Heart Quiz</p>
       </div>
     </footer>
 

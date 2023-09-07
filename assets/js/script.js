@@ -85,22 +85,22 @@ const quizQuestions = [
 // Global variables to track the quiz state
 let currentQuestionIndex = 0;
 let score = 0;
-let timerMinutes = 0; //Initial minutes for the timer
-let timerSeconds = 0; //Initial seconds for the timer
+let timerMinutes = 0;
+let timerSeconds = 0;
 let timerInterval;
 
-// Initially hide the timer container
+// Initially hide the timer, question-number and retry-button container to not to show up on main page
 document.getElementById("timer-container").style.display = "none";
 document.getElementById("question-number").style.display = "none";
 document.getElementById("retry-button").style.display = "none";
 
 
 /**
- * On clicking the Lets get Started button, function will be called to start the quiz
+ * On clicking the start quiz button, function startQuiz() will be called to start the quiz
  */
 function startQuiz() {
     //Hide the start button and other content on the main quiz page and display first question
-    // Display the timer when it starts
+    // Display the timer and question count when the quiz starts
     document.getElementById("timer-container").style.display = "block";
     document.getElementById("question-number").style.display = "block";
     document.getElementById("start-button").style.display = "none";
@@ -189,9 +189,7 @@ function checkAnswer(selectedOption) {
             endQuiz();
         }, 1500);
     }
-
 }
-
 
 //Function to start the timer
 function startTimer() {
@@ -204,29 +202,12 @@ function startTimer() {
             //Increment seconds
             timerSeconds++;
         }
-
-
-        //Update the timer text 
-
-        // document.getElementById("timer").textContent = timeLeft;
-
         const formattedMinutes = timerMinutes < 10 ? `0${timerMinutes}` : timerMinutes;
         const formattedSeconds = timerSeconds < 10 ? `0${timerSeconds}` : timerSeconds;
         document.getElementById("timer").textContent = `${formattedMinutes}:${formattedSeconds}`;
 
     }, 1000);
 }
-
-
-
-//End the quiz if the time runs out
-//         if (timeLeft <= 0) {
-//             endQuiz();
-//         }
-//     }, 1000);
-// }
-
-
 
 // Function to end the quiz game
 function endQuiz() {
@@ -245,7 +226,6 @@ function endQuiz() {
     <p>Score Percentage: ${scorePercentage}%</p>
     <p>Time Taken: ${timerMinutes} mins and ${timerSeconds}secs</p>
     `;
-
     // Show the "Retry Quiz" button 
     document.getElementById("retry-button").style.display = "block";
 }
