@@ -222,10 +222,11 @@ function endQuiz() {
     const questionContainer = document.getElementById("question-container");
     questionContainer.innerHTML = `
     <h2>Quiz Completed</h2>
-    <p>Your Score: ${score} out of ${quizQuestions.length}</p>
-    <p>Score Percentage: ${scorePercentage}%</p>
-    <p>Time Taken: ${timerMinutes} mins and ${timerSeconds}secs</p>
+    <p>Congratulations! You answered ${score} out of ${quizQuestions.length} questions correctly
+     in ${timerMinutes} mins : ${timerSeconds} secs</p>
+    <p>Your score percentage is ${scorePercentage}%</p>
     `;
+
     // Show the "Retry Quiz" button 
     document.getElementById("retry-button").style.display = "block";
 }
