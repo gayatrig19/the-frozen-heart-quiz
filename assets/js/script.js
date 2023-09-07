@@ -181,20 +181,17 @@ function checkAnswer(selectedOption) {
         //Delay for a moment and then move to the next question
         setTimeout(() => {
             displayQuestion();
-        }, 1000);
+        }, 1500);
 
     } else {
-        //End the quiz and display the final score and time taken
-        endQuiz();
-
-
-
-        //Display the final score and message after the deal
-        // setTimeout(() => {
-        // }, 1000);
-
+        // Delay for a moment before ending the quiz and displaying the final score
+        setTimeout(() => {
+            endQuiz();
+        }, 1500);
     }
+
 }
+
 
 //Function to start the timer
 function startTimer() {
