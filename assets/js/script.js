@@ -92,6 +92,7 @@ let timerInterval;
 // Initially hide the timer container
 document.getElementById("timer-container").style.display = "none";
 document.getElementById("question-number").style.display = "none";
+document.getElementById("retry-button").style.display = "none";
 
 
 /**
@@ -247,10 +248,21 @@ function endQuiz() {
     <p>Score Percentage: ${scorePercentage}%</p>
     <p>Time Taken: ${timerMinutes} mins and ${timerSeconds}secs</p>
     `;
+
+    // Show the "Retry Quiz" button 
+    document.getElementById("retry-button").style.display = "block";
 }
 
 //Add event listener to start the quiz when the start button is clicked
 document.getElementById("start-button").addEventListener("click", startQuiz);
+
+// Function to retry the quiz by reloading the page
+function retryQuiz() {
+    window.location.reload();
+}
+
+//Add event listener to the "Retry Quiz" button
+document.getElementById("retry-button").addEventListener("click", retryQuiz);
 
 
 
