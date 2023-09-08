@@ -226,7 +226,6 @@ function endQuiz() {
      in ${timerMinutes} mins : ${timerSeconds} secs</p>
     <p>Your score percentage is ${scorePercentage}%</p>
     `;
-
     // Show the "Retry Quiz" button 
     document.getElementById("retry-button").style.display = "block";
 }

@@ -57,7 +57,7 @@ body {
 /* Welcome container */
 /* Main Container for quiz game */
 .quiz-container {
-    margin: auto;
+    margin: 20px auto;
     max-width: 700px;
     width: 80%;
     background-color: rgba(51, 36, 21, 0.7);
@@ -152,10 +152,21 @@ button:hover {
 }
 
 #timer {
+    background-color: #150335;
+    margin: 5px;
+    padding: 5px;
     font-weight: bold;
     font-size: 20px;
     color: white;
     font-family: 'Merriweather', sans-serif;
+}
+
+#minutes {
+    margin-left: 5px;
+}
+
+#seconds {
+    margin-left: 5px;
 }
 
 /* Styles for displaying right and wrong answers */
