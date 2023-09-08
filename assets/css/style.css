@@ -248,7 +248,7 @@ p .copyright {
     #answer-buttons {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 15px;
+        grid-gap: 20px;
     }
 }
 
@@ -259,7 +259,7 @@ p .copyright {
     }
 
     .logo {
-        height: 30px;
+        height: 35px;
         padding-right: 5px;
     }
 
@@ -301,7 +301,7 @@ p .copyright {
     }
 
     .logo {
-        height: 26px;
+        height: 31px;
         padding-right: 5px;
     }
 
@@ -319,7 +319,7 @@ p .copyright {
     }
 
     .logo {
-        height: 24px;
+        height: 30px;
         padding-right: 5px;
     }
 
