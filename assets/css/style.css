@@ -171,11 +171,21 @@ button:hover {
     color: red;
 }
 
+/* 404 Error message */
 .error-message {
     color: white;
     font-size: 18px;
     margin: 10px 0;
     text-align: center;
+}
+
+.error-message a {
+    font-weight: bold;
+    color: aqua;
+}
+
+.error-message a:hover {
+    color: wheat;
 }
 
 /* Footer styles */
