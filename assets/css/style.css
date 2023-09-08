@@ -162,7 +162,6 @@ button:hover {
     font-family: 'Merriweather', sans-serif;
 }
 
-
 /* Styles for displaying right and wrong answers */
 .correct-answer {
     color: green
@@ -170,6 +169,13 @@ button:hover {
 
 .wrong-answer {
     color: red;
+}
+
+.error-message {
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
 }
 
 /* Footer styles */
