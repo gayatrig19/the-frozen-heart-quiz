@@ -153,6 +153,7 @@ button:hover {
 
 #timer {
     background-color: #150335;
+    border: solid 2px wheat;
     margin: 10px;
     padding: 10px;
     font-weight: bold;
@@ -221,7 +222,7 @@ p .copyright {
 }
 
 /* Media Queries */
-/* Media query for screens with maximum width of 768px(typical for tablets) */
+/* Media query for screens with maximum width of 768px(typical for tablets) and down */
 @media screen and (max-width: 768px) {
     body {
         font-size: 16px;
@@ -245,7 +246,7 @@ p .copyright {
     }
 }
 
-/* Media query for screens with a maximum width of 630px */
+/* Media query for screens with a maximum width of 630px and down */
 @media screen and (max-width: 630px) {
     .heading {
         font-size: 40px;
@@ -287,7 +288,7 @@ p .copyright {
     }
 }
 
-/* Media query for screens with a maximum width of 480px */
+/* Media query for screens with a maximum width of 480px and down */
 @media screen and (max-width: 480px) {
     .heading {
         font-size: 36px;
@@ -305,7 +306,7 @@ p .copyright {
     }
 }
 
-/* Media query for screens with a maximum width of 480px */
+/* Media query for screens with a maximum width of 380px */
 @media screen and (max-width: 380px) {
     .heading {
         font-size: 34px;
@@ -328,6 +329,7 @@ p .copyright {
     }
 }
 
+/* Media query for screens with a maximum width of 320px */
 @media screen and (max-width: 320px) {
     .heading {
         font-size: 30px;
