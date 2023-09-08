@@ -2,6 +2,7 @@
 // https://www.funtrivia.com/search2_act.cfm?type=quizzes&searchstring=frozen+2&search1=Go%21
 // Questions for the quiz are stored below.
 //Define an array of quiz questions
+// Each question is an object with properties for the question text, answer options and correct answer
 
 const quizQuestions = [
     {
@@ -83,13 +84,17 @@ const quizQuestions = [
 
 
 // Global variables to track the quiz state
+/**
+ * Contains current question index, User's score, minutes on the timer, seconds on the timer 
+ * and time interval delay between for displaying next question
+ */
 let currentQuestionIndex = 0;
 let score = 0;
 let timerMinutes = 0;
 let timerSeconds = 0;
 let timerInterval;
 
-// Initially hide the timer, question-number and retry-button container to not to show up on main page
+// Initially hides the timer, question-number and retry-button container to not to show up on main quiz page
 document.getElementById("timer-container").style.display = "none";
 document.getElementById("question-number").style.display = "none";
 document.getElementById("retry-button").style.display = "none";
@@ -99,7 +104,7 @@ document.getElementById("retry-button").style.display = "none";
  * On clicking the start quiz button, function startQuiz() will be called to start the quiz
  */
 function startQuiz() {
-    //Hide the start button and other content on the main quiz page and display first question
+    //Hides the start button and other content on the main quiz page and display first question
     // Display the timer and question count when the quiz starts
     document.getElementById("timer-container").style.display = "block";
     document.getElementById("question-number").style.display = "block";
@@ -110,6 +115,11 @@ function startQuiz() {
     startTimer();
 }
 
+/**
+ * Function to display the current question.
+ * Function clears the previous question and answer options, increments the question number,
+ * and displays the current question and answer options
+ */
 function displayQuestion() {
     const currentQuestion = quizQuestions[currentQuestionIndex];
     const questionText = document.getElementById("question-text");
@@ -119,11 +129,10 @@ function displayQuestion() {
     questionText.innerHTML = "";
     answerButtons.innerHTML = "";
 
-
-    // Increment the question number
+    // Increments the question number
     incrementQuestionNumber();
 
-    // Display current question
+    // Displays current question
     questionText.innerHTML = currentQuestion.question;
 
     // Create answer buttons for each option
@@ -140,6 +149,10 @@ function displayQuestion() {
     });
 }
 
+/**
+ * Function to increment the question number. It updates the displayed current question and 
+ *  shows total number of questions.
+ */
 // Function to increment the question number
 function incrementQuestionNumber() {
     const currentQuestionNumber = document.getElementById("current-question");
@@ -149,6 +162,10 @@ function incrementQuestionNumber() {
     totalQuestions.textContent = quizQuestions.length; // Set the total number of questions
 }
 
+/**
+ * Function checks if the selected answer is correct, updates the score 
+ * and proceeds to the next question.
+ */
 //Function for checking the selected answer 
 function checkAnswer(selectedOption) {
     const currentQuestion = quizQuestions[currentQuestionIndex];
@@ -163,7 +180,7 @@ function checkAnswer(selectedOption) {
         // If answer is correct the button background color will change to green
         if (button.innerText === currentQuestion.correctAnswer) {
             button.style.backgroundColor = "green";
-            // For incorrect answer the button will display red
+            // For incorrect answer the button will display color red
         } else if (button.innerText === selectedOption) {
             button.style.backgroundColor = "red";
         }
@@ -191,7 +208,7 @@ function checkAnswer(selectedOption) {
     }
 }
 
-//Function to start the timer
+//Function to start the timer. Timer updates for every second
 function startTimer() {
     timerInterval = setInterval(function () {
         if (timerSeconds === 59) {
@@ -202,6 +219,7 @@ function startTimer() {
             //Increment seconds
             timerSeconds++;
         }
+        //Format the timer displayed
         const formattedMinutes = timerMinutes < 10 ? `0${timerMinutes}` : timerMinutes;
         const formattedSeconds = timerSeconds < 10 ? `0${timerSeconds}` : timerSeconds;
         document.getElementById("timer").textContent = `${formattedMinutes}:${formattedSeconds}`;
@@ -209,6 +227,10 @@ function startTimer() {
     }, 1000);
 }
 
+/**
+ * Function stops the timer, calculates correct question answered and score percentage
+ * and displays the final result message
+ */
 // Function to end the quiz game
 function endQuiz() {
     // Stop the timer
@@ -226,7 +248,7 @@ function endQuiz() {
      in ${timerMinutes} mins : ${timerSeconds} secs</p>
     <p>Your score percentage is ${scorePercentage}%</p>
     `;
-    // Show the "Retry Quiz" button 
+    // Show the "Restart Quiz" button 
     document.getElementById("retry-button").style.display = "block";
 }
 
@@ -238,7 +260,7 @@ function retryQuiz() {
     window.location.reload();
 }
 
-//Add event listener to the "Retry Quiz" button
+//Add event listener to the "Restart Quiz" button
 document.getElementById("retry-button").addEventListener("click", retryQuiz);
 
 
