@@ -108,6 +108,8 @@ p {
 
 /* Div for the questions to be displayed */
 #question-text {
+    font-size: 18px;
+    font-weight: bold;
     text-align: center;
     margin-bottom: 30px;
     font-family: 'Merriweather', sans-serif;
@@ -367,6 +369,8 @@ p .copyright {
     }
 
     #question-text {
+        font-size: 16px;
+        font-weight: bold;
         text-align: center;
         margin-bottom: 18px;
         font-family: 'Merriweather', sans-serif;
