@@ -153,21 +153,14 @@ button:hover {
 
 #timer {
     background-color: #150335;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
     font-weight: bold;
     font-size: 20px;
     color: white;
     font-family: 'Merriweather', sans-serif;
 }
 
-#minutes {
-    margin-left: 5px;
-}
-
-#seconds {
-    margin-right: 5px;
-}
 
 /* Styles for displaying right and wrong answers */
 .correct-answer {
@@ -259,7 +252,7 @@ p .copyright {
     }
 
     .logo {
-        height: 35px;
+        height: 34px;
         padding-right: 5px;
     }
 
@@ -280,7 +273,7 @@ p .copyright {
 
     #answer-buttons {
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 12px;
+        grid-gap: 14px;
     }
 
     #timer {
@@ -319,7 +312,7 @@ p .copyright {
     }
 
     .logo {
-        height: 30px;
+        height: 29px;
         padding-right: 5px;
     }
 
@@ -331,17 +324,17 @@ p .copyright {
 
     #answer-buttons {
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 12px;
+        grid-gap: 13px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .heading {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .logo {
-        height: 22px;
+        height: 27px;
         padding-right: 5px;
     }
 
