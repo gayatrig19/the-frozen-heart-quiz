@@ -57,7 +57,7 @@ body {
 /* Welcome container */
 /* Main Container for quiz game */
 .quiz-container {
-    margin: 20px auto;
+    margin: auto;
     max-width: 700px;
     width: 80%;
     background-color: rgba(51, 36, 21, 0.7);
