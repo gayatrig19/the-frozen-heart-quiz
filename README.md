@@ -45,7 +45,11 @@ The heading in header section of the website is capitalized with hover effect fo
 #### **Small Screen Size**
 
 ### **Home Page and Quiz Game Page**
-![Home-wireframe](assets/images/readme/small-screen-main-page-wireframe.png)![QuizScore-wireframe](assets/images/readme/small-screen-quiz-questions-wireframe.png)
+![Home-wireframe](assets/images/readme/small-screen-main-page-wireframe.png) ![Quiz-wireframe](assets/images/readme/small-screen-quiz-questions-wireframe.png)
+
+### **Quiz Score Page and 404-Error Page**
+![QuizScore-wireframe](assets/images/readme/small-screen-quiz-result-wireframe.png) ![ErrorPage-wireframe](assets/images/readme/small-screen-quiz-404error-wireframe.png)
+
 
 
 
