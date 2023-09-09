@@ -33,7 +33,7 @@ The Frozen Heart Quiz is an online multiple-choice quiz game website focused on 
 
 #### **Large to Medium Screen Size**
 
-The heading in header section of the website is capitalized with hover effect for better readability and user experience.
+The heading in the header section of the website is capitalized with hover effect for better readability and user experience.
 
 ### **Home Page**
 
@@ -138,8 +138,8 @@ The fonts for the website is taken from [google fonts.](https://fonts.google.com
 
 - The user-name input and validation feature so that the user can enter his/her name before starting the quiz, the name will be saved for later use to display the score.
 - A leaderboard to save the user's previous scores.
-- A table with previous users who played the quiz and their score.
-
+- Create an option in the quiz for different difficulty levels for better user experience and entertainment.
+  
 ----
 
 ## Testing
@@ -155,3 +155,38 @@ The fonts for the website is taken from [google fonts.](https://fonts.google.com
 
 - Expected Result: Each page section is responsive and user friendly when viewing the website on small and large screens.The website have no design or accessibility issue in any of the screen sizes from 320px and up.
 - Actual Result: After using media queries targeted to specific screen sizes, website is responsive with no scroll bar showing, the content is accessible to user to read. Website is user friendly on small to large screen sizes.
+
+- The following devices are used to check responsiveness of the website:
+  - Samsung S20 FE 5G
+  - Samsung Galaxy A50s
+  - Iphone 12
+  - One Plus Nord CE
+  - Microsoft Surface Pro
+  - Apple ipad Air
+  - Moto G5
+
+### Accessibility
+
+- Each page is checked with the help of WAVE Accessibility tool (<https://wave.webaim.org/>)
+- Each page passes accessibility test with no error for:
+      - contrast
+      - aria- labels for users who use screen-readers.
+      - alternative text as a function for screen readers or in events if the images don't load.
+      - structural elements: for users of assistive technology as well as visual and semantic meaning.
+      - language of the document for screen readers.
+      - an alert coming up due to noscript tag and possible heading h2 used on home page, however as it doesn't come up as an error, I have left it in with no modifications
+
+- Accessibility test result for [website](assets/images/readme/wave_accessibility_test.png)
+
+### Manual Testing
+
+Manual testing is performed to ensure website performs well on different browsers and devices.
+
+- Testing for different browsers was carried on using [BrowserStack](https://www.browserstack.com/?utm_source=google&utm_medium=cpc&utm_platform=paidads&utm_content=668760067900&utm_campaign=Search-Brand-EMEA-Navigational&utm_campaigncode=Core+1006598&utm_term=e+browserstack) and manually on some of the browsers.
+  - Chrome
+  - Safari
+  - Microsoft Edge
+  - Firefox
+  - Internet Explorer
+
+- No issue was detected in the website while cross-browser testing. The website is fully responsive on the mentioned browsers.
