@@ -108,6 +108,7 @@ The fonts for the website is taken from [google fonts.](https://fonts.google.com
 
 - This is the section where the user will be able to see questions and answer options with a timer. The user will see total number of questions to be attempted in quiz with a timer which gives user time taken to answer the quiz questions on completing the quiz.
 - The user will be able to select correct answer. The answer if correct will be highlighted in green colour and the wrong answer with red colour. The user will be automatically taken to the next question on every answer clicked.
+  
 ![quiz_page_image](assets/images/readme/quiz_questions_content_screenshot.png)
 
 ### The Score Section
@@ -120,8 +121,7 @@ The fonts for the website is taken from [google fonts.](https://fonts.google.com
 
 ### The Footer Section
 
--Similar to the main header, the footer shows on every page below the game section on the website. It displays icon links to GitHub and LinkedIn accounts. These icon links can enable user to see more about my work through GitHub and learn more about me through LinkedIn.
-
+- Similar to the main header, the footer shows on every page below the game section on the website. It displays icon links to GitHub and LinkedIn accounts. These icon links can enable user to see more about my work through GitHub and learn more about me through LinkedIn.
 - The footer also displays a copyright for the website with simple design consistency throughout all devices.
 
 ![footer_image](assets/images/readme/footer_links_screenshot.png)
@@ -133,3 +133,25 @@ The fonts for the website is taken from [google fonts.](https://fonts.google.com
 - This page gives a clear instructions with the link to go back to home page. The user will not have to use the browser's back button and can navigate through website without leaving it.
 
 ![404_error_page_image](assets/images/readme/404_error_page_screenshot.png)
+
+### Features left to implement
+
+- The user-name input and validation feature so that the user can enter his/her name before starting the quiz, the name will be saved for later use to display the score.
+- A leaderboard to save the user's previous scores.
+- A table with previous users who played the quiz and their score.
+
+----
+
+## Testing
+
+### Responsiveness
+
+- The site is designed to be flexible, fluid and responsive on all screen sizes. Website have been checked for responsiveness through Chrome Development tools. In order to do this, the following steps are taken:
+  1. Open the browser.
+  2. Navigate to The FROZEN HEART QUIZ website <https://gayatrig19.github.io/the-frozen-heart-quiz/>
+  3. Right click anywhere on the page and go to "Inspect" to open Development Tools.
+  4. Click on drop down menu: "Dimensions: Responsive" and choose "Responsive".
+  5. Drag the side of the screen and change screen size, making sure the website looks good from 320px and up. Here, ensure there is consistency in design of the website on every screen size from small(mobile devices) to larger(desktop devices) and no scorll bar is showing for layout of site.
+
+- Expected Result: Each page section is responsive and user friendly when viewing the website on small and large screens.The website have no design or accessibility issue in any of the screen sizes from 320px and up.
+- Actual Result: After using media queries targeted to specific screen sizes, website is responsive with no scroll bar showing, the content is accessible to user to read. Website is user friendly on small to large screen sizes.
