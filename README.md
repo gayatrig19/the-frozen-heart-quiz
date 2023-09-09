@@ -20,6 +20,17 @@ The Frozen Heart Quiz is an online multiple-choice quiz game website focused on 
 - As a user, I want to see the questions and the options I get with it.
 - As a user, I want to see if the answer I have chosen is right or wrong before moving on to the next question.
 - As a user, I want to see my final score with total time taken and an option to play again.
+  
+#### All the users want to be able to access and view the website comfortably on mobile, tablet and desktop devices.
+
+## Design
+
+### Wireframes
+#### **Large to Medium Screen Size**
+
+### **Home Page**
+![Home-wireframe](assets/images/readme/desktop-quiz-mainpage-wireframe.png) ![Home-wireframe](assets/images/readme/small-screen-main-page-wireframe.png)
+  
 
 
 
