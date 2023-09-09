@@ -236,4 +236,21 @@ Manual testing is performed to ensure website performs well on different browser
            - User completes the 15 qustions of quiz, final score with number of correct question answered and time taken to complete the quiz is displayed.
          - User clicks on the "Restart Quiz" button, user is taken back to home page with "Start Quiz" button and welcome message displayed.
 
-4. All the hover and shadow effects on text and buttons works as expected.
+     4. All the hover and shadow effects on text and buttons works as expected.
+
+### Validator Testing
+
+- HTML Validation
+  - No errors were found when passing through the official W3C Validator
+
+        ![HTML_validation](assets/images/readme/index_html_validation.png)
+
+- CSS Validation
+  - No errors were found when passing through the official Jigsaw W3 Validator
+
+        ![CSS_validation](assets/images/readme/css_validation.png)
+
+- JavaScript Validation
+  - No errors were found when passing through the jshint validator.
+
+        ![JavaScript_validation](assets/images/readme/jshint_js_script_validation.png)
