@@ -222,4 +222,18 @@ Manual testing is performed to ensure website performs well on different browser
   | Home Page / Quiz Section link (Header link) | index.html                             | no - as expected |
   | "GitHub" icon (footer section)               |  <https://github.com/gayatrig19>        |  yes - as expected |
   | "LinkedIn" icon (footer section)             |  <https://www.linkedin.com/in/gayatri-ghogare-a8099692/> | yes - as expected  |
-  
+
+- Functionality Testing
+  As a user I have tested website as follows:
+
+1. Home Page / index.html:
+       - User clicks on "Start Quiz" button, user is taken to the quiz game section. The timer starts and the questions with answer options, question number is displayed.
+2. Quiz Game Section / index.html:
+       - User clickes on one of the answer options, if the answer is correct, the button is highlighted in green colour.
+       - If the clicked answer is wrong, the button is highlighted in red colour and simultaneously correct ones is highlighted with green colour.
+       - With each answer button clicked next question is displayed. The question is incremented by 1.
+3. Score Section / index.html:
+       - User completes the 15 qustions of quiz, final score with number of correct question answered and time taken to complete the quiz is displayed.
+       - User clicks on the "Restart Quiz" button, user is taken back to home page with "Start Quiz" button and welcome message displayed.
+
+4. All the hover and shadow effects on text and buttons works as expected.
