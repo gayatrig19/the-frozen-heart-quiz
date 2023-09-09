@@ -94,12 +94,6 @@ let timerMinutes = 0;
 let timerSeconds = 0;
 let timerInterval;
 
-// Initially hides the timer, question-number and retry-button container to not to show up on main quiz page
-document.getElementById("timer-container").style.display = "none";
-document.getElementById("question-number").style.display = "none";
-document.getElementById("retry-button").style.display = "none";
-
-
 /**
  * On clicking the start quiz button, function startQuiz() will be called to start the quiz
  */
@@ -252,16 +246,24 @@ function endQuiz() {
     document.getElementById("retry-button").style.display = "block";
 }
 
-//Add event listener to start the quiz when the start button is clicked
-document.getElementById("start-button").addEventListener("click", startQuiz);
-
 // Function to retry the quiz by reloading the page
 function retryQuiz() {
     window.location.reload();
 }
 
-//Add event listener to the "Restart Quiz" button
-document.getElementById("retry-button").addEventListener("click", retryQuiz);
+// Add event listener for the "DOMContentLoaded" event
+addEventListener("DOMContentLoaded", (event) => {
+    // Initially hides the timer, question-number and retry-button container to not to show up on main quiz page
+    document.getElementById("timer-container").style.display = "none";
+    document.getElementById("question-number").style.display = "none";
+    document.getElementById("retry-button").style.display = "none";
+
+    //Add event listener to start the quiz when the start button is clicked
+    document.getElementById("start-button").addEventListener("click", startQuiz);
+
+    //Add event listener to the "Restart Quiz" button
+    document.getElementById("retry-button").addEventListener("click", retryQuiz);
+});
 
 
 
