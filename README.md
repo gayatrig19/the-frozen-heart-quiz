@@ -254,3 +254,53 @@ Manual testing is performed to ensure website performs well on different browser
   - No errors were found when passing through the jshint validator.
 
    ![JavaScript_validation](assets/images/readme/jshint_js_script_validation.png)
+
+### Unfixed Bugs
+
+- No bugs where detected while testing the website on browsers and devices(small, medium and large screen sizes). All pages are fully functional and responsive to the browers and devices. The consistency in design is maintained throughout.
+
+## Version Control
+
+The website was developed through Codeanywhere IDE.
+
+Code has been pushed to repository on Github with following git commands:
+
+- git add . - to add files ready to commit
+- git commit -m "message" - to commit the code to local repository ready to be pushed
+- git push - final command used to push committed code to remote repo on Github
+
+## Cloning the Repository
+
+1. On Github navigate to the repository "gayatrig19/the-frozen-heart-quiz"
+2. Click "Code" drop down menu - a green button shown right above the file list.
+3. Copy the URL of the repository using "HTTPS", "SSH" or "Github CLI".
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type "git clone", and then paste the URL copied earlier.
+7. Press enter to create local clone. A clone of the repository will now be created.
+
+- For more details on how to clone the repository in order to create a copy for own use refer to the site:<https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
+
+## Forking
+
+1. On Github navigate to the repository "gayatrig19/the-frozen-heart-quiz"
+2. Click "Fork" located towards top right corner on GitHub page.
+3. Select "owner" for the forked repository from the dropdown menu under "owner".
+4. It will create forked repo under the same name as original by default. But you can type a name in "Repository name" or add a description in "Description" box.
+5. Click on "Create fork". A forked repo is created.
+
+- Forking allows you to make any changes without affecting original project. You can send the suggestions by submitting a pull request. Then the Project Owner can review the pull request before accepting the suggestions and merging them.
+- When you have fork to a repository, you don't have access to files locally on your device, for getting access you will need to clone the forked repository.
+
+## Deployment
+
+- The website was deployed to Github Pages using following steps:
+  
+1. Go to GitHub repository.
+2. Click on "Settings".
+3. Click on "Pages"(tab on the left sidebar).
+4. Scroll to "Build and deployment"/"Source" section.
+5. Find the sub-section "Branch".
+6. From the drop-down menu "none"/"select branch" and choose source "main" (or "master").
+7. Click 'Save'
+8. Wait until you can see a link for deployed page within GitHub Page section. This can take a while. Once the page updates you will see a message: Your site is live at <https://gayatrig19.github.io/the-frozen-heart-quiz/>
