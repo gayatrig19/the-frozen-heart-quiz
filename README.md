@@ -59,4 +59,24 @@ The heading in header section of the website is capitalized with hover effect fo
 
 ### **Quiz Score Page and 404-Error Page**
 
-![QuizScore-wireframe](assets/images/readme/small-screen-quiz-result-wireframe.png)   [ErrorPage-wireframe](assets/images/readme/small-screen-quiz-404error-wireframe.png)
+![QuizScore-wireframe](assets/images/readme/small-screen-quiz-result-wireframe.png)  ![ErrorPage-wireframe](assets/images/readme/small-screen-quiz-404error-wireframe.png)
+
+### Typography
+
+The fonts for the website is taken from [google fonts](https://fonts.google.com/)
+
+- [Alegreya SC](https://fonts.google.com/specimen/Alegreya+SC?query=Alegreya+Sc) was used for the header the footer.
+- [Merriweather](https://fonts.google.com/specimen/Merriweather?query=Merr) was used for the body.
+
+### Images
+
+- The image in this project is sourced from [WallpaperAccess](https://wallpaperaccess.com/). Image was specifically selected to correlate with the main purpose of the website and to give user a imagery representation for the content to increase the impact of the design.
+- The logo for the website is sourced from [Freepik](https://www.freepik.com/)
+
+### Visual Effects
+
+#### Hover and Shadow Effect for text and buttons
+
+- The main heading of the website and "Frozen" text on home page is given hover and shadow effects to make the user experience more interactive.
+- The buttons on all pages have a transition, hover and shadow effect. When user clicks or hovers over the button a transition effect with colour change is experienced.
+- The header, footer and main quiz game container includes a shadow effect for letting user get the feel of the website and relate to the content with some entertainment.
