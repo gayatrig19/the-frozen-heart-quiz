@@ -243,14 +243,14 @@ Manual testing is performed to ensure website performs well on different browser
 - HTML Validation
   - No errors were found when passing through the official W3C Validator
 
-        ![HTML_validation](assets/images/readme/index_html_validation.png)
+    ![HTML_validation](assets/images/readme/index_html_validation.png)
 
 - CSS Validation
   - No errors were found when passing through the official Jigsaw W3 Validator
 
-        ![CSS_validation](assets/images/readme/css_validation.png)
+   ![CSS_validation](assets/images/readme/css_validation.png)
 
 - JavaScript Validation
   - No errors were found when passing through the jshint validator.
 
-        ![JavaScript_validation](assets/images/readme/jshint_js_script_validation.png)
+   ![JavaScript_validation](assets/images/readme/jshint_js_script_validation.png)
