@@ -93,4 +93,13 @@ The fonts for the website is taken from [google fonts.](https://fonts.google.com
 - The header includes a link which user can use if they want to be taken back to home page. The link allows user to easily navigate through the page making the site more interactive.
 - When the header text is hovered over, it will change the colour with a shadow effect, so that the user will be aware of the link. The header is responsive throughout all devices from small screens, tablets to desktop.
   
-![main_header_image]()
+![main_header_image](assets/images/readme/header_navbar_screenshot.png)
+
+### Home Page
+
+- The home page contains background image with a gradient effect and a simple overlay text block with a catchy welcome message.
+- In the main welcome message "Frozen" text when hovered changes colour and displays a shadow effect.
+- The overlay block is same throughout the website with a shadow effect for better user experience.
+- The start button on home page when clicked starts the quiz and takes the user to the main quiz section.
+  
+![home_page_image](assets/images/readme/start_quiz_section_screenshot.png)
