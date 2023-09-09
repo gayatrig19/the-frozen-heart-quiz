@@ -95,7 +95,7 @@ The fonts for the website is taken from [google fonts.](https://fonts.google.com
   
 ![main_header_image](assets/images/readme/header_navbar_screenshot.png)
 
-### Home Page
+### The Home Page
 
 - The home page contains background image with a gradient effect and a simple overlay text block with a catchy welcome message.
 - In the main welcome message "Frozen" text when hovered changes colour and displays a shadow effect.
@@ -103,3 +103,17 @@ The fonts for the website is taken from [google fonts.](https://fonts.google.com
 - The start button on home page when clicked starts the quiz and takes the user to the main quiz section.
   
 ![home_page_image](assets/images/readme/start_quiz_section_screenshot.png)
+
+### The Quiz Game Section
+
+- This is the section where the user will be able to see questions and answer options with a timer. The user will see total number of questions to be attempted in quiz with a timer which gives user time taken to answer the quiz questions on completing the quiz.
+- The user will be able to select correct answer. The answer if correct will be highlighted in green colour and the wrong answer with red colour. The user will be automatically taken to the next question on every answer clicked.
+![quiz_page_image](assets/images/readme/quiz_questions_content_screenshot.png)
+
+### The Score Section
+
+- This section will tell the user exactly how many questions are answered correctly and the total time taken to complete the quiz. It will also display the total score percentage.
+- A restart quiz button on the page will take the user back to home page if user wants to retry the quiz.
+- The design is simple so that user will be able to understand the interactivity and actions to take on every step.
+
+![score_page_image](assets/images/readme/quiz_result_screenshot.png)
