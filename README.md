@@ -63,7 +63,7 @@ The heading in header section of the website is capitalized with hover effect fo
 
 ### Typography
 
-The fonts for the website is taken from [google fonts](https://fonts.google.com/)
+The fonts for the website is taken from [google fonts.](https://fonts.google.com/)
 
 - [Alegreya SC](https://fonts.google.com/specimen/Alegreya+SC?query=Alegreya+Sc) was used for the header the footer.
 - [Merriweather](https://fonts.google.com/specimen/Merriweather?query=Merr) was used for the body.
@@ -71,7 +71,7 @@ The fonts for the website is taken from [google fonts](https://fonts.google.com/
 ### Images
 
 - The image in this project is sourced from [WallpaperAccess](https://wallpaperaccess.com/). Image was specifically selected to correlate with the main purpose of the website and to give user a imagery representation for the content to increase the impact of the design.
-- The logo for the website is sourced from [Freepik](https://www.freepik.com/)
+- The logo image for the website is sourced from [Freepik.](https://www.freepik.com/)
 
 ### Visual Effects
 
@@ -80,3 +80,17 @@ The fonts for the website is taken from [google fonts](https://fonts.google.com/
 - The main heading of the website and "Frozen" text on home page is given hover and shadow effects to make the user experience more interactive.
 - The buttons on all pages have a transition, hover and shadow effect. When user clicks or hovers over the button a transition effect with colour change is experienced.
 - The header, footer and main quiz game container includes a shadow effect for letting user get the feel of the website and relate to the content with some entertainment.
+
+-----
+
+# Features
+
+## Existing Features
+
+### Main Header
+
+- The main header with logo image is shown on every page centered on top of the page for consistent design.
+- The header includes a link which user can use if they want to be taken back to home page. The link allows user to easily navigate through the page making the site more interactive.
+- When the header text is hovered over, it will change the colour with a shadow effect, so that the user will be aware of the link. The header is responsive throughout all devices from small screens, tablets to desktop.
+  
+![main_header_image]()
