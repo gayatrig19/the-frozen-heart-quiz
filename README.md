@@ -160,10 +160,9 @@ The fonts for the website is taken from [google fonts.](https://fonts.google.com
   - Samsung S20 FE 5G
   - Samsung Galaxy A50s
   - Iphone 12
-  - One Plus Nord CE
   - Microsoft Surface Pro
   - Apple ipad Air
-  - Moto G5
+  - Google Pixel 5
 
 ### Accessibility
 
@@ -190,3 +189,21 @@ Manual testing is performed to ensure website performs well on different browser
   - Internet Explorer
 
 - No issue was detected in the website while cross-browser testing. The website is fully responsive on the mentioned browsers.
+- For testing on different devices the website link was shared with my friends and family. The website was fully responsive with no issues on following devices:
+      - Samsung S20 FE 5G
+      - Samsung Galaxy A50s
+      - Iphone 12
+      - One Plus Nord CE
+      - Microsoft Surface Pro
+      - Apple ipad Air
+      - Moto G
+
+### Lighthouse
+
+- Lighthouse Score for Desktop:
+  
+  ![index_page_desktop](assets/images/readme/desktop_mainpage_lighthouse_screenshot.png)
+
+- Lighthouse Score for Mobile:
+
+  ![index_page_mobile](assets/images/readme/mobile_lighthouse_screenshot.png)
