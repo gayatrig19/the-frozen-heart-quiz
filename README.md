@@ -27,10 +27,10 @@ The Frozen Heart Quiz is an online multiple-choice quiz game website focused on 
 
 ### Wireframes
 #### **Large to Medium Screen Size**
-The heading in header section of the website is capitalized with hoover effect for better readability and user experience.
+The heading in header section of the website is capitalized with hover effect for better readability and user experience.
 
 ### **Home Page**
-![Home-wireframe](assets/images/readme/desktop-quiz-mainpage-wireframe.png) ![Home-wireframe](assets/images/readme/small-screen-main-page-wireframe.png)
+![Home-wireframe](assets/images/readme/desktop-quiz-mainpage-wireframe.png) 
 
 ### **Quiz Game Page**
 ![Quiz-wireframe](assets/images/readme/desktop-quiz-questionspage-wireframe.png)
@@ -40,6 +40,17 @@ The heading in header section of the website is capitalized with hoover effect f
 
 ### **404-Error Page**
 ![ErrorPage-wireframe](assets/images/readme/desktop_quiz_404_errorpage.png)
+
+
+#### **Small Screen Size**
+
+### **Home Page and Quiz Game Page**
+![Home-wireframe](assets/images/readme/small-screen-main-page-wireframe.png) ![QuizScore-wireframe](assets/images/readme/small-screen-quiz-questions-wireframe.png)
+
+
+
+
+
   
 
 
