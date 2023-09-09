@@ -190,13 +190,14 @@ Manual testing is performed to ensure website performs well on different browser
 
 - No issue was detected in the website while cross-browser testing. The website is fully responsive on the mentioned browsers.
 - For testing on different devices the website link was shared with my friends and family. The website was fully responsive with no issues on following devices:
-      - Samsung S20 FE 5G
-      - Samsung Galaxy A50s
-      - Iphone 12
-      - One Plus Nord CE
-      - Microsoft Surface Pro
-      - Apple ipad Air
-      - Moto G
+  
+  - Samsung S20 FE 5G
+  - Samsung Galaxy A50s
+  - Iphone 12
+  - One Plus Nord CE
+  - Microsoft Surface Pro
+  - Apple ipad Air
+  - Moto G
 
 ### Lighthouse
 
@@ -207,3 +208,18 @@ Manual testing is performed to ensure website performs well on different browser
 - Lighthouse Score for Mobile:
 
   ![index_page_mobile](assets/images/readme/mobile_lighthouse_screenshot.png)
+
+### Functional Testing
+
+- Buttons and anchor links
+  - All links and buttons checked and works as expected
+  
+  | Button / anchor link (Location)            |  Destination Page                     | Page Opens In New Tab |
+  |---------------------------------------------|---------------------------------------|-----------------|
+  | "Start Quiz" (home page)                    | index.html / 1st question displayed   | no - as expected |
+  |"Answer button" (answer is selected)         | index.html /  next question displayed  | no - as expected|
+  | "Restart Quiz" (index.html / displayed below final score)| index.html / home page with "Start Quiz" displayed | no - as expected |
+  | Home Page / Quiz Section link (Header link) | index.html                             | no - as expected |
+  | "GitHub" icon (footer section)               |  <https://github.com/gayatrig19>        |  yes - as expected |
+  | "LinkedIn" icon (footer section)             |  <https://www.linkedin.com/in/gayatri-ghogare-a8099692/> | yes - as expected  |
+  
