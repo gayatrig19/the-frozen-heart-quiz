@@ -117,3 +117,19 @@ The fonts for the website is taken from [google fonts.](https://fonts.google.com
 - The design is simple so that user will be able to understand the interactivity and actions to take on every step.
 
 ![score_page_image](assets/images/readme/quiz_result_screenshot.png)
+
+### The Footer Section
+
+-Similar to the main header, the footer shows on every page below the game section on the website. It displays icon links to GitHub and LinkedIn accounts. These icon links can enable user to see more about my work through GitHub and learn more about me through LinkedIn.
+
+- The footer also displays a copyright for the website with simple design consistency throughout all devices.
+
+![footer_image](assets/images/readme/footer_links_screenshot.png)
+
+### The 404-Error Page
+
+- This page will show to user if a wrong link for the page is entered.
+- The design for the page is simple stating the message.
+- This page gives a clear instructions with the link to go back to home page. The user will not have to use the browser's back button and can navigate through website without leaving it.
+
+![404_error_page_image](assets/images/readme/404_error_page_screenshot.png)
