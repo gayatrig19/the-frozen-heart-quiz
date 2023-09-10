@@ -168,12 +168,12 @@ The fonts for the website is taken from [google fonts.](https://fonts.google.com
 
 - Each page is checked with the help of WAVE Accessibility tool (<https://wave.webaim.org/>)
 - Each page passes accessibility test with no error for:
-      - contrast
-      - aria- labels for users who use screen-readers.
-      - alternative text as a function for screen readers or in events if the images don't load.
-      - structural elements: for users of assistive technology as well as visual and semantic meaning.
-      - language of the document for screen readers.
-      - an alert coming up due to noscript tag and possible heading h2 used on home page, however as it doesn't come up as an error, I have left it in with no modifications
+  - contrast
+  - aria- labels for users who use screen-readers.
+  - alternative text as a function for screen readers or in events if the images don't load.
+  - structural elements: for users of assistive technology as well as visual and semantic meaning.
+  - language of the document for screen readers.
+  - an alert coming up due to noscript tag and possible heading h2 used on home page, however as it doesn't come up as an error, I have left it in with no modifications
 
 - Accessibility test result for [website](assets/images/readme/wave_accessibility_test.png)
 
