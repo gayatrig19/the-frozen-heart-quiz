@@ -233,7 +233,7 @@ Manual testing is performed to ensure website performs well on different browser
            - If the selected answer is wrong, the button is highlighted in red colour and simultaneously correct ones is highlighted with green colour.
            - With each answer button selected next question is displayed. The question is incremented by 1.
      3. Score Section / index.html:
-           - User completes the 15 questions of quiz, final score with number of correct question answered and time taken to complete the quiz is displayed.
+           - User completes the 15 questions of quiz, final score with number of correct questions answered and time taken to complete the quiz is displayed.
          - User clicks on the "Restart Quiz" button, user is taken back to home page with "Start Quiz" button and welcome message displayed.
 
      4. All the hover and shadow effects on text and buttons works as expected.
@@ -345,8 +345,8 @@ Code has been pushed to repository on Github with following git commands:
 - Kevin Powell videos
 - Google
 - Stack Overflow
-- Javatpoint JavaScript tutorials
-- Love Maths project from CI- general help and increment score code.
+- JavaTpoint JavaScript tutorials
+- Love Maths project from Code Institute for general help.
 - Readme structure from my last project: <https://github.com/gayatrig19/the-unplugged-club>
 
 ## Acknowledgements
