@@ -173,7 +173,7 @@ The fonts for the website is taken from [google fonts.](https://fonts.google.com
   - alternative text as a function for screen readers or in events if the images don't load.
   - structural elements: for users of assistive technology as well as visual and semantic meaning.
   - language of the document for screen readers.
-  - an alert coming up due to noscript tag and possible heading h2 used on home page, however as it doesn't come up as an error, I have left it in with no modifications
+  - an alert coming up due to noscript tag and possible heading h2 used on home page, however as it doesn't come up as an error, I have left it in with no modifications.
 
 - Accessibility test result for [website](assets/images/readme/wave_accessibility_test.png)
 
@@ -227,13 +227,13 @@ Manual testing is performed to ensure website performs well on different browser
   - As a user I have tested website as follows:
 
      1. Home Page / index.html:
-          - User clicks on "Start Quiz" button, user is taken to the quiz game section. The timer starts   and the questions with answer options and question number is displayed.
+          - User clicks on "Start Quiz" button, user is taken to the quiz game section. The timer starts from 0 and the questions with answer options and question number is displayed.
      2. Quiz Game Section / index.html:
            - User selects one of the answer options, if the answer is correct, the button is highlighted  in green colour.
            - If the selected answer is wrong, the button is highlighted in red colour and simultaneously correct ones is highlighted with green colour.
            - With each answer button selected next question is displayed. The question is incremented by 1.
      3. Score Section / index.html:
-           - User completes the 15 qustions of quiz, final score with number of correct question answered and time taken to complete the quiz is displayed.
+           - User completes the 15 questions of quiz, final score with number of correct question answered and time taken to complete the quiz is displayed.
          - User clicks on the "Restart Quiz" button, user is taken back to home page with "Start Quiz" button and welcome message displayed.
 
      4. All the hover and shadow effects on text and buttons works as expected.
@@ -330,6 +330,7 @@ Code has been pushed to repository on Github with following git commands:
 - [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the CSS Code.
 - [jshint validator](https://jshint.com/) - used to check java script code for errors.
 - Code Institute's Codeanywhere Template to generate the workspace for the project.
+- BrowserStack for cross-browser testing.
 
 # Credits
 
