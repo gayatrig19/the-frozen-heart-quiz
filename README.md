@@ -97,7 +97,7 @@ The fonts for the website is taken from [google fonts.](https://fonts.google.com
 
 ### The Home Page
 
-- The home page contains background image with a gradient effect and a simple overlay text block with a catchy welcome message.
+- The home page contains background image with a gradient effect and a simple overlay text block with a welcome message that will attract attention of the user.
 - In the main welcome message "Frozen" text when hovered changes colour and displays a shadow effect.
 - The overlay block is same throughout the website with a shadow effect for better user experience.
 - The start button on home page when clicked starts the quiz and takes the user to the main quiz section.
