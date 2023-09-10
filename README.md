@@ -315,9 +315,9 @@ Code has been pushed to repository on Github with following git commands:
 - [GitHub](https://github.com/) to host the source code and GitHub Pages to deploy and host the live site.
 - Git to provide the version control to commit and push code to the repository.
 - [Google Fonts](https://fonts.google.com/) for typography.
-- [FontAwesome](https://fontawesome.com/v5/search) v5.15.4 for icons.
+- [FontAwesome](https://fontawesome.com/v5/search) v5.15.4 for website icons.
 - Google Chrome Dev Tools for inspecting, debugging pages and testing layouts.
--[Pixelied](https://pixelied.com/) to convert .jpg images into .webp to reduce storage and enhance the website performance.
+- [Cloudconvert](https://cloudconvert.com/jpg-to-webp) to convert .jpg images into .webp to reduce storage and enhance the website performance.
 - [TinyJPG](https://tinyjpg.com/) to optimise images for website.
 - [Freepik](https://www.freepik.com/) to source the main logo image.
 - [WallpaperAccess](https://wallpaperaccess.com/) to source the website background image.
@@ -330,3 +330,17 @@ Code has been pushed to repository on Github with following git commands:
 - [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the CSS Code.
 - [jshint validator](https://jshint.com/) - used to check java script code for errors.
 - Code Institute's Codeanywhere Template to generate the workspace for the project.
+
+# Credits
+
+- The website background image is from the movie "Frozen" and is sourced from WallpaperAccess.com
+- Google Fonts - for the fonts to use in the website
+- FontAwesome for all the icons used in the website.
+- Freepik is used for logo image.
+- Questions for the quiz are taken from: <https://triviawhizz.com/trivia-questions/frozen> and <https://www.funtrivia.com/search2_act.cfm?type=quizzes&searchstring=frozen+2&search1=Go%21>
+- Basic structure and understanding about quiz website taken from: <https://www.youtube.com/watch?v=riDzcEQbX6k&t=2s>
+- JS code help for displaying timer and incremented questions taken from tutorial: <https://www.youtube.com/watch?v=WUBhpSRS_fk>
+- The basic understanding of code for quiz is referred from the tutorial: <https://www.youtube.com/watch?v=WiLTsxjCmWQ&t=591s>
+- Kevin Powell videos
+- Love Maths project from CI- general help and increment score code.
+- Readme structure from my last project: <https://github.com/gayatrig19/the-unplugged-club>
