@@ -333,8 +333,8 @@ Code has been pushed to repository on Github with following git commands:
 
 # Credits
 
-- The website background image is from the movie "Frozen" and is sourced from WallpaperAccess.com
-- Google Fonts - for the fonts to use in the website
+- The website's background image is from the movie "Frozen" and is sourced from WallpaperAccess.com
+- Google Fonts - used for the fonts to use in the website
 - FontAwesome for all the icons used in the website.
 - Freepik is used for logo image.
 - Questions for the quiz are taken from: <https://triviawhizz.com/trivia-questions/frozen> and <https://www.funtrivia.com/search2_act.cfm?type=quizzes&searchstring=frozen+2&search1=Go%21>
@@ -342,5 +342,11 @@ Code has been pushed to repository on Github with following git commands:
 - JS code help for displaying timer and incremented questions taken from tutorial: <https://www.youtube.com/watch?v=WUBhpSRS_fk>
 - The basic understanding of code for quiz is referred from the tutorial: <https://www.youtube.com/watch?v=WiLTsxjCmWQ&t=591s>
 - Kevin Powell videos
+- Google
 - Love Maths project from CI- general help and increment score code.
 - Readme structure from my last project: <https://github.com/gayatrig19/the-unplugged-club>
+
+## Acknowledgements
+
+- I would like to thank my mentors, Ronan McClelland and Narender Singh for their valuable feedbacks, guidance, support and help in planning the project.
+- Thank you Slack Community for answering all my questions and doubts.
