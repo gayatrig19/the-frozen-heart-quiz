@@ -82,11 +82,11 @@ const quizQuestions = [
     }
 ];
 
-
+// Base code structure credit: https://www.youtube.com/watch?v=riDzcEQbX6k&t=2s
 // Global variables to track the quiz state
 /**
  * Contains current question index, User's score, minutes on the timer, seconds on the timer 
- * and time interval delay between for displaying next question
+ * and time interval delay between displaying next question
  */
 let currentQuestionIndex = 0;
 let score = 0;

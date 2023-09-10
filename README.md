@@ -343,6 +343,8 @@ Code has been pushed to repository on Github with following git commands:
 - The basic understanding of code for quiz is referred from the tutorial: <https://www.youtube.com/watch?v=WiLTsxjCmWQ&t=591s>
 - Kevin Powell videos
 - Google
+- Stack Overflow
+- Javatpoint JavaScript tutorials
 - Love Maths project from CI- general help and increment score code.
 - Readme structure from my last project: <https://github.com/gayatrig19/the-unplugged-club>
 
