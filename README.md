@@ -224,10 +224,10 @@ Manual testing is performed to ensure website performs well on different browser
   | "LinkedIn" icon (footer section)             |  <https://www.linkedin.com/in/gayatri-ghogare-a8099692/> | yes - as expected  |
 
 - Functionality Testing
-  - As a user I have tested website as follows:
+  - As a User, I have tested website as follows:
 
      1. Home Page / index.html:
-          - User clicks on "Start Quiz" button, user is taken to the quiz game section. The timer starts from 0 and the questions with answer options and question number is displayed.
+          - User clicks on "Start Quiz" button, user is taken to the quiz game section. The timer starts from 0 and the questions with answer options and question number are displayed.
      2. Quiz Game Section / index.html:
            - User selects one of the answer options, if the answer is correct, the button is highlighted  in green colour.
            - If the selected answer is wrong, the button is highlighted in red colour and simultaneously correct ones is highlighted with green colour.
